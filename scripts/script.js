@@ -17,6 +17,9 @@ walls.forEach(function(boundary) {
         if (play == true) {
             play = false;
             statusElement.textContent = "GAME OVER!";
+            walls.forEach(function(boundary) {
+                boundary.style.backgroundColor = 'red';
+            });
         }
     });
 });
@@ -26,5 +29,8 @@ endBlock.addEventListener('mouseover', function() {
     if (play == true) {
         play = false;
         statusElement.textContent = "YOU WIN!";
+        walls.forEach(function(boundary) {
+            boundary.style.backgroundColor = 'green';
+        });
     }
 });
