@@ -11,3 +11,12 @@ startBlock.addEventListener('mouseover', function() {
         statusElement.textContent = "You've started the game!";
     }
 });
+
+walls.forEach(function(boundary) {
+    boundary.addEventListener('mouseover', function() {
+        if (play == true) {
+            play = false;
+            statusElement.textContent = "GAME OVER!";
+        }
+    });
+});
