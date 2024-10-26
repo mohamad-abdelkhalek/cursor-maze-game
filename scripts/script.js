@@ -20,3 +20,11 @@ walls.forEach(function(boundary) {
         }
     });
 });
+
+
+endBlock.addEventListener('mouseover', function() {
+    if (play == true) {
+        play = false;
+        statusElement.textContent = "YOU WIN!";
+    }
+});
