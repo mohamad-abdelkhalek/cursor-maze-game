@@ -1,6 +1,6 @@
 # Cursor Maze Game
 
-Welcome to the **Cursor Maze Game**! This is a simple interactive game created using **HTML**, **CSS**, and **JavaScript**. The goal is to navigate your cursor from the "Start" block to the "End" block without touching any of the walls.
+The **Cursor Maze Game**! This is a simple interactive game created using **HTML**, **CSS**, and **JavaScript**. The goal is to navigate your cursor from the "Start" block to the "End" block without touching any of the walls.
 
 ## Features
 
